@@ -1,0 +1,25 @@
+import { QueryClient } from "@tanstack/react-query";
+import { create } from "zustand";
+import { getProjectTree } from "../apis/projects";
+
+export const useTreeStructureStore = create((set, get) => {
+  const queryClient = new QueryClient();
+  return {
+    projectId: null,
+    treeStructure: null,
+    setTreeStructure: async () => {
+      const id = get().projectId;
+      console.log("projectId is setted in", id);
+      const data = await queryClient.fetchQuery({
+        queryKey: [`projectTree - ${id}`],
+        queryFn: () => getProjectTree({ projectId: id }),
+      });
+      console.log("the tree structure ", data);
+      set({ treeStructure: data });
+    },
+    setProjectId: (projectId) => {
+      set({ projectId: projectId });
+      console.log("projectId is setted in", projectId);
+    },
+  };
+});

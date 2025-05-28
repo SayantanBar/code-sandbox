@@ -1,0 +1,99 @@
+{
+  "data": {
+    "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70",
+    "name": "ed3427f8-82a2-46c9-ac57-4af23a472c70",
+    "children": [
+      {
+        "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox",
+        "name": "sandbox",
+        "children": [
+          {
+            "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/.gitignore",
+            "name": ".gitignore",
+            "isFolder": false
+          },
+          {
+            "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/README.md",
+            "name": "README.md",
+            "isFolder": false
+          },
+          {
+            "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/eslint.config.js",
+            "name": "eslint.config.js",
+            "isFolder": false
+          },
+          {
+            "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/index.html",
+            "name": "index.html",
+            "isFolder": false
+          },
+          {
+            "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/package.json",
+            "name": "package.json",
+            "isFolder": false
+          },
+          {
+            "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/public",
+            "name": "public",
+            "children": [
+              {
+                "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/public/vite.svg",
+                "name": "vite.svg",
+                "isFolder": false
+              }
+            ],
+            "isFolder": true
+          },
+          {
+            "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/src",
+            "name": "src",
+            "children": [
+              {
+                "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/src/App.css",
+                "name": "App.css",
+                "isFolder": false
+              },
+              {
+                "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/src/App.jsx",
+                "name": "App.jsx",
+                "isFolder": false
+              },
+              {
+                "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/src/assets",
+                "name": "assets",
+                "children": [
+                  {
+                    "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/src/assets/react.svg",
+                    "name": "react.svg",
+                    "isFolder": false
+                  }
+                ],
+                "isFolder": true
+              },
+              {
+                "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/src/index.css",
+                "name": "index.css",
+                "isFolder": false
+              },
+              {
+                "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/src/main.jsx",
+                "name": "main.jsx",
+                "isFolder": false
+              }
+            ],
+            "isFolder": true
+          },
+          {
+            "path": "/home/sayantan/Desktop/newProject/sandbox/backend/projects/ed3427f8-82a2-46c9-ac57-4af23a472c70/sandbox/vite.config.js",
+            "name": "vite.config.js",
+            "isFolder": false
+          }
+        ],
+        "isFolder": true
+      }
+    ],
+    "isFolder": true
+  },
+  "success": true,
+  "message": "successfully fetch the tree!"
+}
